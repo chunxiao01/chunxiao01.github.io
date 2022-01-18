@@ -917,6 +917,7 @@ img {
   max-width: 100%;
 }
 .article-date,
+.article-updated-date,
 .article-category .article-category-link,
 .archive-year-wrap .archive-year,
 .archive-article-date {
@@ -924,6 +925,7 @@ img {
   color: #5c6b72;
 }
 .article-date:hover,
+.article-updated-date:hover,
 .article-category .article-category-link:hover,
 .archive-year-wrap .archive-year:hover,
 .archive-article-date:hover {
@@ -1369,11 +1371,21 @@ img {
   display: table;
   clear: both;
 }
+.article-date {
+  margin-right: 1.5rem;
+}
 .article-date::before {
   content: '\f10f';
-  margin-right: 0.5rem;
   font-family: feathericon;
   opacity: 0.5;
+}
+.article-updated-date {
+  margin-right: 1.5rem;
+}
+.article-updated-date::before {
+  content: '\f194';
+  font-family: feathericon;
+  opacity: 0.8;
 }
 .article-category {
   display: inline-block;
