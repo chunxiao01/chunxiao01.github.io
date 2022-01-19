@@ -72,6 +72,8 @@
   if (isMobile.any()) {
     //移动端隐藏博客发表与更新时间的字符格式
     $(".span_isMobile").hide()
+    $(".article-date").css("margin-right", ".5rem")
+    $(".article-updated-date").css("margin-right", ".5rem")
   }
 
   //
