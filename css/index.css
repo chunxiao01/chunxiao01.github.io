@@ -4250,6 +4250,9 @@ h1.page-title + .tag-cloud-list {
   height: 2.5em;
   line-height: 2.5em;
 }
+.layout > .recent-posts .pagination > pangu {
+  display: none;
+}
 .layout > .recent-posts .pagination > *:not(.space):hover {
   background: var(--btn-hover-color);
   color: var(--btn-color);
